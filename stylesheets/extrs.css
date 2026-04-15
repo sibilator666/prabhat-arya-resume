@@ -1,0 +1,161 @@
+/* ── Import fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* ── Typography overrides ── */
+.md-typeset {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.md-typeset h1 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h2 {
+  font-size: 0.65rem !important;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #e03535 !important;
+  font-weight: 500;
+  border-bottom: 0.5px solid #222;
+  padding-bottom: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.md-typeset h3 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--md-default-fg-color);
+}
+
+/* ── Header ── */
+.md-header {
+  background: #0e0e0e !important;
+  box-shadow: none !important;
+  border-bottom: 0.5px solid #222;
+}
+
+.md-header__title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+/* ── Tabs ── */
+.md-tabs {
+  background: #0e0e0e !important;
+  border-bottom: 0.5px solid #222;
+}
+
+.md-tabs__link {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  transition: opacity 0.2s;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1 !important;
+}
+
+/* ── Sidebar nav ── */
+.md-nav__link {
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.md-nav__link--active,
+.md-nav__link:hover {
+  color: #e03535 !important;
+}
+
+/* ── Content area ── */
+.md-content {
+  background: #0e0e0e;
+}
+
+.md-main {
+  background: #0e0e0e;
+}
+
+/* ── Code blocks ── */
+.md-typeset code {
+  font-size: 0.82rem;
+  background: #141414;
+  border: 0.5px solid #222;
+  border-radius: 3px;
+  padding: 1px 5px;
+  color: #e03535;
+}
+
+.md-typeset pre > code {
+  color: #e8e4dc;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.md-typeset pre {
+  background: #111 !important;
+  border: 0.5px solid #222;
+  border-radius: 4px;
+}
+
+/* ── Admonitions / callouts ── */
+.md-typeset .admonition {
+  border-left: 2px solid #e03535;
+  background: #111;
+  border-radius: 0 4px 4px 0;
+}
+
+/* ── Tables ── */
+.md-typeset table:not([class]) {
+  border: 0.5px solid #222;
+  font-size: 0.82rem;
+}
+
+.md-typeset table:not([class]) th {
+  background: #111;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #e03535;
+  font-weight: 500;
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 0.5px solid #1a1a1a;
+  color: #888;
+  font-weight: 300;
+}
+
+/* ── Footer ── */
+.md-footer {
+  background: #0e0e0e !important;
+  border-top: 0.5px solid #222;
+}
+
+.md-footer-meta {
+  background: #0a0a0a !important;
+}
+
+/* ── Search ── */
+.md-search__form {
+  background: #141414 !important;
+  border: 0.5px solid #222;
+}
+
+.md-search__input {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+}

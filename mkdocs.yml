@@ -1,0 +1,40 @@
+site_name: Prabhat Arya
+site_url: https://YOUR_GITHUB_USERNAME.github.io/my-resume
+site_description: Senior Technical Writer — API Docs, Docs-as-Code, DITA, AI-Enhanced Documentation
+site_author: Prabhat Arya
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    scheme: slate
+    primary: red
+    accent: red
+  font:
+    text: DM Sans
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Experience: experience.md
+  - Skills: skills.md
+  - Education: education.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/prabhat-arya-b4bb14140
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@prabhatzepp
+    - icon: fontawesome/regular/envelope
+      link: mailto:Prabhatzepp@gmail.com
