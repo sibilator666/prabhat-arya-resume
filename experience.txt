@@ -1,0 +1,19 @@
+Authored end-to-end API and technical documentation (manuals, FAQs, Knowledge Base) for
+secure banking and cash handling ecosystem, imparting enhanced adoption and integration for
+enterprise clientele.
+� Documented API workflows, and system architecture using XR documentation tool catered
+towards DITA and content reuse principal.
+� Collaborated with engineering, product, and security teams to document authentication
+mechanisms, encryption standards, and compliance driven system behaviors.
+� Leveraged G+D’s proprietary AI (Blockbrain) to enhance documentation workflows, enhancing
+document analysis, validation accuracy, and consistency.
+� Implemented and contributed to docs-as-code practices using Git-based workflows, improving
+version control, review cycles, and release alignment
+� Structured modular, reusable documentation aligned with DITA principles, improving
+scalability, reusability and searchability of relevant content.
+� Authored machine/hardware-based documentation for legacy cash processing machines used
+by 100+ central banks worldwide.
+� Ensured documentation compliance with enterprise grade security and fintech standards in
+regulated environments.
+� Created multimedia knowledge base (product videos, Machine Usage videos) to ensure
+enhanced adoption of proprietary software and products.
